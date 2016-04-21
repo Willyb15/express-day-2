@@ -1,0 +1,15 @@
+	<h1>Using Express.js and EJS to inject data into the View</h1>
+	<h2>Data from Weather API</h2>
+
+	<h3>What City?</h3>
+	<h4><%=body.name %></h4>
+	
+	<h3>The Temperature</h3>
+	<h4><%= body.main.temp %></h4>
+
+	<h3>Whats going on in the sky?</h3>
+	<h4><%=body.weather[0].description %></h4>
+	
+	<h3>Whats the humidity</h3>
+	<h4><%=body.main.humidity %>%</h4>
+

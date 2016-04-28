@@ -45,7 +45,7 @@ router.get('/', function(req, res, next) {
 module.exports = router;
 ```
 #####Inside index.ejs used the updated values from this object into the View.
-```ejs
+```js
 	<h1>Using Express.js and EJS to inject data into the View</h1>
 	<h2>Data from Weather API</h2>
 
